@@ -13,7 +13,9 @@ class _ApiManager implements ApiManager {
     this._dio, {
     this.baseUrl,
     this.errorLogger,
-  });
+  }) {
+    baseUrl ??= 'https://newsapi.org/v2/';
+  }
 
   final Dio _dio;
 
@@ -40,7 +42,7 @@ class _ApiManager implements ApiManager {
     )
         .compose(
           _dio.options,
-          'https://newsapi.org/v2/top-headlines',
+          'top-headlines',
           queryParameters: queryParameters,
           data: _data,
         )
@@ -79,7 +81,7 @@ class _ApiManager implements ApiManager {
     )
         .compose(
           _dio.options,
-          'https://newsapi.org/v2/top-headlines/sources',
+          'top-headlines/sources',
           queryParameters: queryParameters,
           data: _data,
         )
@@ -120,7 +122,7 @@ class _ApiManager implements ApiManager {
     )
         .compose(
           _dio.options,
-          'https://newsapi.org/v2/top-headlines',
+          'top-headlines',
           queryParameters: queryParameters,
           data: _data,
         )
@@ -161,7 +163,7 @@ class _ApiManager implements ApiManager {
     )
         .compose(
           _dio.options,
-          'https://newsapi.org/v2/everything',
+          'everything',
           queryParameters: queryParameters,
           data: _data,
         )

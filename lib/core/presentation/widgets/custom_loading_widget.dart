@@ -115,16 +115,16 @@ class _CustomLoadingWidgetState extends State<CustomLoadingWidget>
 }
 
 
-class LoadingWidget {
-  static loadingDiad(BuildContext context) {
-    return const Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        Center(
-          child: CustomLoadingWidget()
-        )
-      ],
-    );
-  }
-}
+// class LoadingWidget {
+//   static loadingDiad(BuildContext context) {
+//     return const Column(
+//       mainAxisAlignment: MainAxisAlignment.center,
+//       crossAxisAlignment: CrossAxisAlignment.center,
+//       children: [
+//         Center(
+//           child: CustomLoadingWidget()
+//         )
+//       ],
+//     );
+//   }
+// }

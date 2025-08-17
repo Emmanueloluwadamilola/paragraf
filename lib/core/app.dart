@@ -61,16 +61,7 @@ class App extends StatelessWidget with AppTheme {
                       const ChangePasswordScreen(),
                       LanguageScreen.id: (context) => const LanguageScreen(),
 
-                  // HomeScreen.id: (context) => const HomeScreen(),
-                  // DashboardScreen.id: (context) => const DashboardScreen(),
-                  // ForgotPasswordScreen.id: (context) =>
-                  //     const ForgotPasswordScreen(),
-                  // ResetPasswordScreen.id: (context) =>
-                  //     const ResetPasswordScreen(),
-                  // VerifyEmailScreen.id: (context) => const VerifyEmailScreen(),
-                  // ShopScreen.id: (context) => const ShopScreen(),
-                  // NewInstallationScreen.id: (context) =>
-                  //     const NewInstallationScreen(),
+                 
                 },
               ),
             );

@@ -2,9 +2,9 @@ String onboardingKey = 'onboarding';
 String interestKey = 'interest';
 String languageKey = 'language';
 
-const String apiKeyNewsDataApi = '';
+const String apiKeyNewsDataApi = '65209a3149954c6e84e8894507c9202d';
 
-const String apiKeyNewsIo = '';
+const String apiKeyNewsIo = 'pub_53348f2705a8cdb6d4ce79e91d57e2c1d1595';
 
 String? selectedLanguage;
 

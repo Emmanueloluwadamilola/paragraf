@@ -47,14 +47,28 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-  
+    apiKey: 'AIzaSyDGcrPpvIcKHBew_esP7xnOfBDfglY3XLA',
+    appId: '1:867883904457:web:e16c7d8fe8153d389c0c18',
+    messagingSenderId: '867883904457',
+    projectId: 'note-app-fc524',
+    authDomain: 'note-app-fc524.firebaseapp.com',
+    storageBucket: 'note-app-fc524.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-
+    apiKey: 'AIzaSyBqztRMRaC1Nh5DTWYnNJUSk2R9DNoFUXw',
+    appId: '1:867883904457:android:0e3c7dbd064c54249c0c18',
+    messagingSenderId: '867883904457',
+    projectId: 'note-app-fc524',
+    storageBucket: 'note-app-fc524.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
- 
+    apiKey: 'AIzaSyDL2uR5KYQHrr0cST87fYNgL1KPWmJgc90',
+    appId: '1:867883904457:ios:17cf8b4fc60aec6f9c0c18',
+    messagingSenderId: '867883904457',
+    projectId: 'note-app-fc524',
+    storageBucket: 'note-app-fc524.appspot.com',
+    iosBundleId: 'com.example.newsApp',
   );
 }
