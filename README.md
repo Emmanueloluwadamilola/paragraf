@@ -1,4 +1,4 @@
-# Paragraf
+# Paaragraf
 
 ## About App
 A News app which uses NewsAPI to fetch news using retrofit, provider for state management using clean code architecture. It uses Firebase for authencation ans firestore for favourite news storage.   
@@ -24,6 +24,8 @@ A News app which uses NewsAPI to fetch news using retrofit, provider for state m
 - Retrofit
 - Cached network image
 - flutter animate
+
+Link to APK file -- https://drive.google.com/drive/folders/17iDfwAcJGEFCdM2gImKhTD3xpzl6_6x5?usp=sharing
 
 Link to APK file -- https://drive.google.com/drive/folders/17iDfwAcJGEFCdM2gImKhTD3xpzl6_6x5?usp=sharing
 
